@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUTRID</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueires.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">PUTRID</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#bio">BIO</a></li>
+                <li><a href="#selected-works">SELECTED WORKS</a></li>
+                <li><a href="#other-projects">OTHER PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">PUTRID</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#bio" onclick="toggleMenu()">BIO</a></li>
+            <li><a href="#selected-works" onclick="toggleMenu()">SELECTED WORKS</a></li>
+            <li><a href="#other-projects" onclick="toggleMenu()">OTHER PROJECTS</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">CONTACT</a></li>
+          </div>  
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assests/the_headshot.png" alt="profile picture"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Creating Art Through Destruction</p>
+            <img src="./assests/PUTRID_logo.png" class="logo-pic" alt="logo picture"/>
+            <p class="section__text__p2">Artist, Producer, Storyteller</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assests/PUTRID_OneSheet.pdf')">Download One Sheet</button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact Info</button>
+                <button class="btn btn-color-2" onclick="location.href='https://www.instagram.com/woahitsbrysen/'">Instagram</button>
+                <button class="btn btn-color-2" onclick="location.href='https://soundcloud.com/putridsoundmusic'">Listen Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="bio">
+        <h1 class="title">BIO</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assests/bio_pic.png" alt="profile picture" class="bio-pic">
+            </div>
+            <div class="bio-details-container">
+                <div class="bio-containers">
+                    <div class="text-container">
+                        <p>PUTRID is a musician, artist, and storyteller known for pushing the boundaries of sound and narrative. With a background in Music Production from the Los Angeles Film School and a passion for experimental art forms, they create work that bridges the raw intensity of noise and music with the emotional depth of storytelling.</p>
+                        <p>Drawing on a wide range of influences, PUTRID's musical journey began with the immersive sounds of rock and metal bands like Tool, Pink Floyd, and Slipknot. This foundation evolved into a love for heavier genres such as deathcore and slamcore, inspired by bands like Cannibal Corpse and Infant Annihilator. The discovery of Vocaloid artists like Kikuo and Utsu-P opened the door to electronic music, which soon expanded to the chaotic, sample-driven realms of breakcore and harsh noise. Today, PUTRID blends these diverse influences into a unique fusion of distortion, rhythm, and emotion.</p>
+                        <p>Performing under the evolving artist name PUTRID, they are dedicated to creating raw, unfiltered soundscapes that resonate deeply with listeners seeking something outside the mainstream. With a fearless approach to both music and narrative, PUTRID invites audiences to step into a world where chaos becomes art.</p>    
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <section id="selected-works" class="featured">
+        <h1 class="title">SELECTED WORKS</h1>
+        <div class="works-container">
+            <div class="project">
+                <div class="project-item">
+                    <h3>"Untitled_112"</h3>
+                        <p>Blending analog and digital noise unlike anything else</p>
+                        <iframe width="100%" height="300" scrolling="no" frameborder="no" 
+                        allow="autoplay" 
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1912819391&color=%23ababab&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                        </iframe>
+                            <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                <a href="https://soundcloud.com/putridsoundmusic" title="PUTRID" target="_blank" style="color: #cccccc; text-decoration: none;">PUTRID</a> · 
+                                <a href="https://soundcloud.com/putridsoundmusic/untitled_112" title="untitled_112" target="_blank" style="color: #cccccc; text-decoration: none;">untitled_112</a>
+                            </div>
+                </div>
+                <div class="project-item">
+                    <h3>"Bloodlust"</h3>
+                        <p>Diving deep into the darkest parts of the human psyche</p>
+                        <iframe width="100%" height="300" scrolling="no" frameborder="no" 
+                        allow="autoplay" 
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1332195622&color=%23ababab&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                        </iframe>
+                            <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                <a href="https://soundcloud.com/putridsoundmusic" title="PUTRID" target="_blank" style="color: #cccccc; text-decoration: none;">PUTRID</a> · 
+                                <a href="https://soundcloud.com/putridsoundmusic/bloodlust" title="Bloodlust" target="_blank" style="color: #cccccc; text-decoration: none;">Bloodlust</a>
+                            </div>    
+                </div>
+                <div class="project-item">
+                    <h3>"Stuck in the Basement"</h3>
+                        <p>The more you struggle, the worse it gets</p>
+                        <iframe width="100%" height="300" scrolling="no" frameborder="no" 
+                        allow="autoplay" 
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1273368871&color=%23ababab&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                        </iframe>
+                        <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                            <a href="https://soundcloud.com/putridsoundmusic" title="PUTRID" target="_blank" style="color: #cccccc; text-decoration: none;">PUTRID</a> · 
+                            <a href="https://soundcloud.com/putridsoundmusic/stuckinthebasement" title="stuckinthebasement" target="_blank" style="color: #cccccc; text-decoration: none;">stuckinthebasement</a>
+                        </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <section id="other-projects">
+        <h1 class="title">OTHER PROJECTS</h1>
+        <div class="video-container">
+            <div class="video">
+                <h3>Lake Delores Abandoned Series</h3>
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/4hzZP1qKIaY?si=KIVdWhJt5PptDibT" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video">
+                <h3>Fisheye Fanatics</h3>
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/AAOLAxHilgM?si=VPw7cfXLfSCzMun8" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assests/profilepic3.png" alt="profile picture"/>        </div>
+    </section>    
+
+    <section id="contact">
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assests/email.png" alt="Email icon" class="icon contact-icon"/>
+                <p><a href="putridsoundproductions@gmail.com">putridsoundproductions@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#bio">BIO</a></li>
+                    <li><a href="#selected-works">SELECTED WORKS</a></li>
+                    <li><a href="#other-projects">OTHER PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 PUTRID. All Rights Reserved</p>
+    </footer>
+  <script src="script.js"></script>  
+</body>
+</html>
